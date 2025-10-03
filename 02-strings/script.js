@@ -3,6 +3,7 @@
 let name = 'Federico' 
 // Stampa il valore di nome nella console.
 console.log(name)
+// Applied simple variable with attached name
 // 2. Tipi primitivi
 // Crea tre variabili chiamate number, text e bool e assegna rispettivamente
 // un numero, una stringa e un valore booleano.
@@ -13,6 +14,7 @@ let bool = true
 console.log(number)
 console.log(text)
 console.log(bool)
+// Applied three variables witch attached values
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
 // e le variabili sopra in modo da stampare correttamente 
 // in console la stringa con il nome completo
@@ -22,8 +24,9 @@ const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
 
 const fullName = `${firstName} ${lastName}`;
 console.log(fullName); // Output: "Jane Smith"
-
+// Applied template literal to two variables
 // 4. Imposta questa variabile utilizzando una proprietà
 // sulla variabile alphabet per ottenere la sua lunghezza
 const numberOfLettersInAlphabet = alphabet.length;
 console.log(numberOfLettersInAlphabet); // Output: 26
+// Applied length to variable 
